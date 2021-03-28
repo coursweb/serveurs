@@ -1,7 +1,6 @@
 ---
 layout: page
 title: htaccess
-permalink: /divers/htaccess/
 ---
 
 Explication concernant le fichier `.htaccess`.

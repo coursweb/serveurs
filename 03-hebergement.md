@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hébergement
-permalink: /divers/hebergement/
+permalink: /hebergement/
 ---
 
 Informations sur les hébergements web.
