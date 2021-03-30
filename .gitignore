@@ -1,0 +1,9 @@
+
+_includes
+_layouts
+_sass
+_site
+assets
+Gemfile*
+*.gemspec
+.sass-cache*
