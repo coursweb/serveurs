@@ -1,7 +1,7 @@
 ---
 layout: page
 title: redirection htaccess
-permalink: /redirection-htaccess/
+permalink: /redirection-htaccess.html
 ---
 
 Le fichier `.htaccess` permet également de mettre en place des redirections.

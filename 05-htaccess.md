@@ -1,7 +1,7 @@
 ---
 layout: page
 title: htaccess
-permalink: /htaccess/
+permalink: /htaccess.html
 ---
 
 Explication concernant le fichier `.htaccess`.

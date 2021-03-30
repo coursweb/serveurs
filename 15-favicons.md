@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Les Favicons
-permalink: /favicons/
+permalink: /favicons.html
 ---
 
 
