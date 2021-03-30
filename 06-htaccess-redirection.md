@@ -1,6 +1,6 @@
 ---
 layout: page
-title: redirection htaccess
+title: Redirection htaccess
 permalink: /redirection-htaccess.html
 ---
 
