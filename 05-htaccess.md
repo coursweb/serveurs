@@ -37,6 +37,7 @@ Pour afficher la liste des dossiers et fichier, ajoutez la ligne:
 - Optimisation de vitesse (compression gzip)
 - Durée du cache: mise en cache avec une durée spécifiée par format.
 - [Forcer des redirections](redirection-htaccess.html).
+- [Empêcher le hotlinking](hotlinking.html)
 - Empêcher l'accès à certains contenus.
 
 ## Références
