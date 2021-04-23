@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hébergement
+title: Serveurs et hébergement
 permalink: /index.html
 ---
 
