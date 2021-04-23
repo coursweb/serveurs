@@ -2,3 +2,4 @@ remote_theme: coursweb/jk-theme
 title: Serveurs et hébergement
 description: Un cours sur diverses procédures pour gérer un serveur web.
 lang: fr-FR
+markdown: GFM
