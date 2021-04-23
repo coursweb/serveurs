@@ -18,3 +18,7 @@ Où placer le fichier robots.txt ?
 Le fichier doit être placé à la racine du site.
 
 Par exemple: https://exemple.ch/robots.txt
+
+## Ressources
+
+De bonnes infos fournies par Google: https://developers.google.com/search/docs/advanced/robots/create-robots-txt?hl=fr
