@@ -1,23 +1,12 @@
 ---
 layout: page
-title: htaccess
-permalink: /htaccess.html
+title: htaccess et webfont
+permalink: /redirection-htaccess.html
 ---
 
-Explication concernant le fichier `.htaccess`.
+Deux cas de figures pouvant se présenter avec des Webfonts
 
-Ce fichier, placé dans le dossier racine d'un site tournant sur un serveur Apache, permet d'effectuer un certain nombre de réglages: 
-
-- Optimisation de vitesse (compression gzip)
-- Durée du cache: mise en cache avec une durée spécifiée par format.
-- Forcer des redirections.
-- Empêcher l'accès à certains contenus.
-
-Une bonne référence: le *HTML5 Boilerplate* donne de nombreux conseils d'optimisation de vitesse.
-
-[https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess](https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess)
-
-## Autoriser le chargement de webfont depuis un autre domaine
+## 1) Autoriser le chargement de webfont depuis un autre domaine
 
 Certains navigateurs vont refuser de charger une ressource qui est hébergée sur un domaine différent du HTML actuel.
 
@@ -39,7 +28,7 @@ Pour autoriser cela, vous devez ajouter un réglage HTACCESS au domaine qui héb
 
 ## Empêcher l'accès à des contenus
 
-Ce cas de figure se présente notamment pour l'utilisation de **webfonts** commerciales. Certaines fonderies demandent de protéger les fontes par une restriction .htaccess.
+Ce cas de figure se présente notamment pour l'utilisation de **webfonts** commerciales. Certaines fonderies peuvent vous demander de protéger les fontes contre le piratage, par une restriction .htaccess.
 
 L'idée est de permettre le chargement uniquement depuis un nom de domaine spécifique: si la fonte est chargée via une feuille de style CSS depuis le domaine example.com, elle sera disponible. Toutes les autres demandes d'accès à la fonte seront refusées - il est donc impossible de télécharger les fichiers. 
 
@@ -103,15 +92,3 @@ RewriteCond %{HTTP_REFERER} !^$
 RewriteCond %{HTTP_REFERER} !^http://(www\.)example.com/.*$ [NC]
 RewriteRule \.(gif|jpg)$ http://www.example.com/no-hotlinking.gif [R,L]
 ```
-
-#### Les "rewrite rule flags"
-
-Explication de quelques paramètres utilisés dans les règles d'écriture:
-
-- **[F] : forbidden** - la ressource est inaccessible, le serveur donnera un message "403 Forbidden".
-- **[L] : last** - Lorsque le drapeau [L] est présent, mod_rewrite arrête le traitement du jeu de règles.
-- **[NC] : nocase** - traitement insensible à la casse. Par exemple, .jpg aussi bien que .JPG seront acceptés. 
-
-Pour plus d'informations, voir :
-
-* [Documentation sur Apache.org](https://httpd.apache.org/docs/current/rewrite/flags.html)
