@@ -16,5 +16,18 @@ Si vous êtes en formation, il est possible d'obtenir un hébergement web à tar
 1. Vous devez avoir [créé un compte Infomaniak](https://www.infomaniak.com/) et avoir acheté un nom de domaine.
 2. Scannez ou photographiez votre carte d'étudiant·e et carte d'identité.
 3. Envoyez les scans [au support d'Infomaniak](https://support.infomaniak.com/). Indiquez que vous souhaitez activer l'hébergement gratuit pour étudiants.
-4. Une fois la confirmation obtenue, commandez votre hébergement. Choisir l'offre "Classe, Web + Mail".
+4. Une fois la confirmation obtenue, commandez votre hébergement. Choisir l'offre standard "Hébergement Web", et pas l'offre "Web starter".
 
+Voici à quoi ressembleront ces étapes:
+
+![Ajouter un hébergement](img/1-ajouter-hebergement.png)
+
+![Choisir votre domaine](img/2-choix-domaine.png)
+
+![Choisir le service Hébergement Web](img/3-choix-hebergement.png)
+
+![Choisir le service Email](img/4-choix-email.png)
+
+![Saisir le Code Promo](img/5-code-promo.png)
+
+Quand vous aurez saisi les deux codes promo (web et email), le prix du produit sera de zéro CHF, et vous pourrez confirmer la commande.
