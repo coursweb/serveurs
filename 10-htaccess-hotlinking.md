@@ -1,7 +1,7 @@
 ---
 layout: page
 title: htaccess et hotlinking
-permalink: /hotlinking.html
+permalink: hotlinking.html
 ---
 
 Ce cas d'utilisation du HTACCESS vise la prévention du "hotlinking", càd l'accès direct aux images d'un site (p.ex. pour les insérer dans un forum de discussion).
@@ -19,9 +19,9 @@ La 2ème ligne signifie qu'on autorise les "blank referrers", les accès qui ne 
 
 La 3ème ligne indique le domaine autorisé à accéder aux images.
 
-La troisième ligne empêche l'accès à une série de types de fichier.
+La 4ème ligne empêche l'accès à une série de types de fichier.
 
-Et voici un exemple similaire, qui retourne une image prédéfinie (probablement avec un message explicatif ou ironique):
+Voici un exemple similaire, qui retourne une image prédéfinie (probablement avec un message explicatif ou ironique):
 
 ```
 RewriteEngine on

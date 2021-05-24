@@ -1,7 +1,7 @@
 ---
 layout: page
 title: robots.txt
-permalink: /robots.html
+permalink: robots.html
 ---
 
 # robots.txt

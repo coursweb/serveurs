@@ -51,3 +51,5 @@ Cloudflare est un service web qui offre notamment les avantages suivants:
 Héberger votre site sur votre propre matériel?
 
 Projet artistique de Danja Vasiliev: [Superglue](https://superglue.it/buy/). Ce projet permet d'utiliser un routeur (modèles supportés:  D-Link DIR-505 et TP-LINK TL-WR710N) pour héberger un site web depuis sa propre connexion.
+
+Le site [Low-Tech Magazine](https://solar.lowtechmagazine.com/) est alimenté par énergie solaire. Lire un article à ce sujet: https://www.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website.html

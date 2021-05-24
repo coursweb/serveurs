@@ -1,7 +1,7 @@
 ---
 layout: page
 title: htaccess et webfont
-permalink: /htaccess-webfont.html
+permalink: htaccess-webfont.html
 ---
 
 Deux cas de figures pouvant se présenter avec des Webfonts
