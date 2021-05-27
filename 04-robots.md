@@ -4,7 +4,6 @@ title: robots.txt
 permalink: robots.html
 ---
 
-# robots.txt
 
 Comment ne pas indexer un fichier dans les moteurs de recherche ?
 
