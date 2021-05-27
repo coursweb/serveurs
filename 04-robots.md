@@ -18,6 +18,8 @@ Le fichier doit être placé à la racine du site.
 
 Par exemple: https://exemple.ch/robots.txt
 
+
+
 ## Exemple: bloquer l'indexation par archive.org
 
 Certains propriétaires de site souhaitent éviter que leur site soit archivé par Internet Archive et accessible via archive.org
@@ -35,4 +37,5 @@ Disallow: /
 
 ## Ressources
 
-De bonnes infos fournies par Google: https://developers.google.com/search/docs/advanced/robots/create-robots-txt?hl=fr
+- De bonnes infos fournies par Google: https://developers.google.com/search/docs/advanced/robots/create-robots-txt?hl=fr
+- Guide Robots.txt pour WordPress: https://kinsta.com/fr/blog/robots-txt-wordpress/
