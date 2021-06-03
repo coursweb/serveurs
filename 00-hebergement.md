@@ -41,7 +41,7 @@ Héberger des applications dans des langages autres que PHP / MySQL:
 
 ## Cloudflare
 
-Cloudflare est un service web qui offre notamment les avantages suivants:
+[Cloudflare](https://www.cloudflare.com/) est un service web qui offre notamment les avantages suivants:
 
 - Sécurité: Protection DDoS, pare-feu (Web Application Firewall), etc.
 - Performance: réseau de distribution de contenu (CDN). 
