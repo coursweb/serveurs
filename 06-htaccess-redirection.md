@@ -24,7 +24,7 @@ La redirection d'un fichier précis, vers un nouvel emplacement dans *un autre* 
 Redirect /path/to/old/file/old.html https://example.com/new/file/new.html
 ```
 
-## Exemples: 
+## Plus d'infos
 
 * [Les drapeaux de réécriture](https://httpd.apache.org/docs/current/rewrite/flags.html), Documentation Apache.
 * [How can I redirect and rewrite my URLs with an .htaccess file?](https://help.dreamhost.com/hc/en-us/articles/215747748-How-can-I-redirect-and-rewrite-my-URLs-with-an-htaccess-file-), DreamHost Knowledge Base
