@@ -30,7 +30,9 @@ Pour autoriser cela, vous devez ajouter un réglage HTACCESS au domaine qui héb
 
 Ce cas de figure se présente notamment pour l'utilisation de **webfonts** commerciales. Certaines fonderies peuvent vous demander de protéger les fontes contre le piratage, par une restriction .htaccess.
 
-L'idée est de permettre le chargement uniquement depuis un nom de domaine spécifique: si la fonte est chargée via une feuille de style CSS depuis le domaine example.com, elle sera disponible. Toutes les autres demandes d'accès à la fonte seront refusées - il est donc impossible de télécharger les fichiers. 
+L'idée est de permettre le chargement uniquement depuis un nom de domaine spécifique: si la fonte est chargée via une feuille de style CSS depuis le domaine example.com, elle sera disponible.
+
+Toutes les autres demandes d'accès à la fonte seront refusées - il est donc impossible de télécharger les fichiers. 
 
 Voici un exemple de code .htaccess qui produit cet effet:
 
@@ -67,3 +69,4 @@ Voici un exemple de code .htaccess qui produit cet effet:
 </FilesMatch>
 ```
 
+Vous devrez remplacer le texte `example.com` par le vrai domaine de votre site.
