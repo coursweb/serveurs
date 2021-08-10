@@ -3,4 +3,17 @@ title: Serveurs et hébergement
 description: Un cours sur diverses procédures pour gérer un serveur web.
 lang: fr-FR
 markdown: GFM
+chapters:
+ - title: Cours-web
+   url: https://cours-web.ch/
+ - title: Serveurs
+   url: https://cours-web.ch/serveurs/
+ - title: HTML
+   url: https://cours-web.ch/html/
+ - title: CSS
+   url: https://cours-web.ch/html/
+ - title: JavaScript
+   url: https://cours-web.ch/javascript/
+ - title: WordPress
+   url: https://cours-web.ch/wp/
 footer_col1: 
