@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: frontpage
 title: Serveurs et hébergement
-permalink: /index.html
+permalink: index.html
 ---
 
 Informations sur les hébergements web.

@@ -2,7 +2,7 @@ remote_theme: coursweb/jk-theme
 title: Serveurs et hébergement
 description: Un cours sur diverses procédures pour gérer un serveur web.
 lang: fr-FR
-markdown: GFM
+# markdown: GFM
 # Chapters : top navigation
 chapters:
  - title: Cours-web
@@ -12,7 +12,7 @@ chapters:
  - title: HTML
    url: https://cours-web.ch/html/
  - title: CSS
-   url: https://cours-web.ch/html/
+   url: https://cours-web.ch/css/
  - title: JavaScript
    url: https://cours-web.ch/javascript/
  - title: WordPress
@@ -24,4 +24,3 @@ footer_col_1: <ul class="contact-list">
   <li>Eracom, Lausanne</li>
   <li>2017–2021</li></ul>
 footer_col_2: <ul class="social-media-list"><li><a href="https://github.com/coursweb/serveurs">Lien Github</a></li></ul>
-footer_col_3: Un cours sur diverses procédures pour gérer un serveur web.
