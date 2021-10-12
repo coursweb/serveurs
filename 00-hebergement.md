@@ -1,5 +1,5 @@
 ---
-layout: frontpage
+layout: page
 title: Serveurs et hébergement
 permalink: index.html
 ---
